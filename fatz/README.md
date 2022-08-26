@@ -6,25 +6,26 @@ Pasos para instalar Go en VS Code segun el vídeo [YTB-channel=FatzCode-video=Go
 - Instalar el programa desde la web oficial https://go.dev/doc/install
   
 - Seguir las instucciones del video:
-  
-    - Creamos el fichero go.mod que contiene las librerias y módulos de los que depende el proyecto con la instrucción.
+    
+  - Creamos el fichero go.mod que contiene las librerias y módulos de los que depende el proyecto con la instrucción.
 
 ``` bash
 go mod init github.com/jescuderobus/go-agosto
 ```
-    - Al crear el fichero main.go, VS Code nos ofrecera instalar las extensiones para GO, le damos a "Instalar TODAS"
-    - Creamos el Fichero en Go que muestre por pantalla "Hola Mundo"
-```
+
+  - Al crear el fichero main.go, VS Code nos ofrecera instalar las extensiones para GO, le damos a "Instalar TODAS"
+  - Creamos el Fichero en Go que muestre por pantalla "Hola Mundo"
+  
+``` go
 package main
-
 import "fmt"
-
 func main(){
 	fmt.Println("Hello World")
 }
 ```
-    - Desde un terminal se ejecuta con el comando "go run ."
-    - Para construir el fichero ejecutable se ejecuta el comando "go build ."
+
+  - Desde un terminal se ejecuta con el comando "go run ."
+  - Para construir el fichero ejecutable se ejecuta el comando "go build ."
 
 ----
  
