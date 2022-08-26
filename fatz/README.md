@@ -35,6 +35,8 @@ func main(){
 go get github.com/google/uuid
 ```
 
+Y creamos el fichero uuid.go con el código correspondiente.
+
 
 
 
